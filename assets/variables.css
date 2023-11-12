@@ -1,0 +1,8 @@
+:root {
+    --primary-green: #42B719;
+    --white: #FFFFFF;
+    --background: #171717;
+    --gray: #4F4F4F;
+
+    --index: calc(1vw - 1vh);
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Tektur:wght@400;500;600;700;800&display=swap');
+@import "variables.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', cursive;
+}
+
+body {
+    font-family: 'Montserrat', cursive;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-green);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-green);
+    opacity: 0.9;
+}
