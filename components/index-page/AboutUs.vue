@@ -22,8 +22,6 @@
     <div class="monstera-2">
       <img src="~/assets/images/monstera-2.webp" alt="">
     </div>
-
-
   </section>
 </template>
 

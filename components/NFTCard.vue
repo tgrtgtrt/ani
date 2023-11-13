@@ -7,13 +7,18 @@
         <p class="info__currency">$</p>
         <p class="info__value">{{ props.sum }}</p>
       </div>
-      <button class="info__buy">BUY NFT</button>
+
+      <crossmint-pay-button
+          collectionId="c5bb31c2-c559-4948-ba28-3e71f0708bc7"
+          projectId="adefac0d-2ad9-4f34-bea5-7794fd80e5cb"
+      />
     </div>
   </div>
+
+
 </template>
 
 <script setup lang="ts">
-
 const props = defineProps({
   id: Number,
   title: String,
@@ -86,8 +91,8 @@ function useAsset(path: String) {
       }
     }
 
-    &__buy {
-      width: 175px;
+    crossmint-pay-button {
+      width: 200px;
       height: 54px;
       color: var(--primary, #42B719);
       font-family: Montserrat, sans-serif;

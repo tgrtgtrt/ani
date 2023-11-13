@@ -10,6 +10,11 @@
 <script setup lang="ts">
 import HeaderElement from "~/components/HeaderElement.vue";
 import FooterElement from "~/components/FooterElement.vue";
+import {scripts, metaMainPage} from "~/seoConfig"
+import seo from "~/mixins/seo";
+
+const {setProperty} = seo();
+setProperty(metaMainPage.title, [...[], ...metaMainPage.meta], [], scripts);
 </script>
 <style scoped>
 .body {
