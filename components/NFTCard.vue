@@ -4,7 +4,8 @@
     <div class="card__info info">
       <p class="info__title">{{ props.title }}</p>
       <div class="info__sum">
-        <p class="info__currency">$</p>
+        <!--        <p class="info__currency">$</p>-->
+        <p class="info__currency matic">MATIC</p>
         <p class="info__value">{{ props.sum }}</p>
       </div>
 
@@ -81,6 +82,10 @@ function useAsset(path: String) {
         font-size: 22px;
         font-weight: 700;
         margin-bottom: 2px;
+      }
+
+      .matic {
+        color: #7c3ee2;
       }
 
       .info__value {
