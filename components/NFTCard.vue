@@ -12,6 +12,9 @@
       <crossmint-pay-button
           collectionId="c5bb31c2-c559-4948-ba28-3e71f0708bc7"
           projectId="adefac0d-2ad9-4f34-bea5-7794fd80e5cb"
+          mintConfig='{
+    "type": "erc-721",
+  }'
       />
     </div>
   </div>
